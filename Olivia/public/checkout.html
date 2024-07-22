@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang thanh toán</title>
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light " data-bs-theme="light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/img/logo.png" alt="" style="width: 50px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Sản phẩm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Tin tức</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Danh mục
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Giày</a></li>
+              <li><a class="dropdown-item" href="#">Áo sơ mi</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Áo khoắc nỉ</a></li>
+              <li><a class="dropdown-item" href="#">Áo hoodie</a></li>
+              <li><a class="dropdown-item" href="#">Quần</a></li>
+              <li><a class="dropdown-item" href="#">Phụ kiện</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ms-5 mt-1">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"><a href=""><i
+                    class="fa-solid fa-magnifying-glass"></i></a></span>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                aria-describedby="basic-addon1">
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav  mb- mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Giỏ hàng</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tài khoản
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+              <li><a class="dropdown-item" href="#">Đăng ký</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Quên mật khẩu</a></li>
+              <li><a class="dropdown-item" href="#">Sửa thông tin</a></li>
+              <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Xin chào,user</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row mt-3 mb-3">
+
+      <div class="col-md-6">
+        <h2>Thanh toán</h2>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1">
+          </div>
+
+          <div class="row">
+            <div class="col-6 mb-3">
+              <label for="exampleInputPassword1" class="form-label">Họ</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="col-6 mb-3 ">
+              <label for="exampleInputPassword1" class="form-label">Tên</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Địa chỉ</label>
+            <input type="email" class="form-control" id="exampleInputEmail1">
+          </div>
+
+          <div class="row">
+            <div class="col-6 mb-3">
+
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Chọn Quốc Gia</option>
+                <option value="1">Việt Nam</option>
+                <option value="2">Mỹ</option>
+                <option value="3">Canada</option>
+              </select>
+            </div>
+
+            <div class="col-6 mb-3 ">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Chọn Tỉnh/Thành phố</option>
+                <option value="1">Hồ Chí Minh</option>
+                <option value="2">Hà Nội</option>
+                <option value="3">Long An</option>
+              </select>
+            </div>
+          </div>
+
+        </form>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="p-3 p-lg-5 border bg-white">
+          <table class="table site-block-order-table mb-5">
+            <thead>
+              <tr><th>Sản phẩm</th>
+              <th>Giá</th>
+            </tr></thead>
+            <tbody>
+              <tr>
+                <td>Top Up T-Shirt <strong class="mx-2">x</strong> 1</td>
+                <td>100.000 VND</td>
+              </tr>
+              <tr>
+                <td>Polo Shirt <strong class="mx-2">x</strong>   1</td>
+                <td>100.000 VND</td>
+              </tr>
+
+              <tr>
+                <td class="text-black font-weight-bold"><strong>Tổng số đơn hàng</strong></td>
+                <td class="text-black font-weight-bold"><strong>200.000 VND</strong></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="border p-3 mb-3">
+            <h3 class="h6 mb-0"><a class="d-block collapsed" data-bs-toggle="collapse" href="#collapsebank" role="button" aria-expanded="false" aria-controls="collapsebank">Thanh toán bằng thẻ tín dụng</a></h3>
+
+            <div class="collapse" id="collapsebank" style="">
+              <div class="py-2">
+                <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="border p-3 mb-3">
+            <h3 class="h6 mb-0"><a class="d-block collapsed" data-bs-toggle="collapse" href="#collapsecheque" role="button" aria-expanded="false" aria-controls="collapsecheque">ZaloPays</a></h3>
+
+            <div class="collapse" id="collapsecheque" style="">
+              <div class="py-2">
+                <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="border p-3 mb-5">
+            <h3 class="h6 mb-0"><a class="d-block collapsed" data-bs-toggle="collapse" href="#collapsepaypal"  role="button" aria-expanded="false" aria-controls="collapsepaypal">Thanh toán khi nhận hàng</a></h3>
+
+            <div class="collapse" id="collapsepaypal" style="">
+              <div class="py-2">
+                <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <button class="btn btn-success btn-lg py-3 btn-block" >Thanh toán</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="text-bg-secondary">
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-heart" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2024 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+
+
+</html>
